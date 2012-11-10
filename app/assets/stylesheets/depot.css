@@ -11,7 +11,7 @@
 
 
 #store h1 {
-        font:  150% sans-serif;
+        font:  250% sans-serif;
         color: #226;
         border-bottom: 3px dotted #77d;
 }
@@ -74,11 +74,14 @@
   border-bottom: 5px solid;
   font: italic small-caps bold 100px/150px 'chalkduster', serif;
   color: #87cefa;
-  text-align: right;
+  text-align: middle;
+  height: 150px;
 }
 
 #banner img {
   float: left;
+  height:150px;
+  width:150px;
 }
 
 #columns {
@@ -121,7 +124,8 @@
 }
 
 #store .entry img {
-  width: 80px;
+  width: 150px;
+  height: 120px;
   margin-right: 5px;
   margin-bottom: 5px;
   float: left;
@@ -132,11 +136,14 @@
  margin-top: 0;
  margin-bottom: 2px;
  color: #227;
+ font-size: 150%;
 }
+
 
 #store .entry p {
  margin-top: 0.5em; 
  margin-bottom: 0.8em; 
+ font-size: large;
 }
 
 #store .entry .price_line {
@@ -151,7 +158,9 @@
 #store .entry  .price {
   color: #44a;
   font-weight: bold;
-  margin-right: 2em;
+  font-size:120%;
+  margin-right: 2.5em;
+  margin-left: 3em;
 }
 
 /* START:inline */
@@ -197,14 +206,15 @@
 /* Styles for order form */
 
 .depot_form fieldset {
-  background: #efe;
+  background: #f0f8ff;
 }
 
 .depot_form legend {
-  color: #dfd;
-  background: #141;
+  color: #87cefa;
+  background: #303030;
   font-family: sans-serif;
-  padding: 0em 1em;
+  font-size:xx-large;
+  padding: 0.5em 1em;
 }
 
 .depot_form label {
@@ -214,10 +224,12 @@
   padding-top: 0.2em;
   margin-right: 0.1em;
   display: block;
+  font-size: large;
 }
 
 .depot_form select, .depot_form textarea, .depot_form input {
   margin-left: 0.5em;
+  font-size:large;
 }
 
 .depot_form .submit {
