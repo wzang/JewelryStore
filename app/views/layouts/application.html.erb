@@ -19,8 +19,14 @@
         <%= render @cart %>
       <% end %>
     <% end %>
-
-
+	
+	<%= form_tag store_path, :method => 'get' do %>
+	    <p>
+	       <%= text_field_tag :search, params[:search] %>
+	       <%= submit_tag "Search", :title => nil %>
+	    </p>
+	<% end %>
+	
       <ul>
         <a href="http://www....">Home</a><br />
         <a href="http://www..../faq">Questions</a><br />
